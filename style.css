@@ -1,3 +1,31 @@
+
+#logo {
+    text-align: center;
+}
+
+#search {
+    text-align: center;
+}
+
+#search-buttons {
+    text-align: center;
+}
+
+#search-bar {
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 482px;
+}
+
+#search-bar:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
 button {
     border: 1px solid #f2f2f2;
     background-color: #f2f2f2;
