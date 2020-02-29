@@ -3,9 +3,50 @@
     text-align: center;
 }
 
+body {
+    font-family: arial, sans-serif;
+}
+
 #search {
     text-align: center;
 }
+
+/** Header Navigation **/
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#header-nav li {
+    display: inline;
+}
+
+#header-nav li a {
+    padding-left: 15px;
+    color: #000;
+    opacity: 0.75;
+    font-size: 13px;
+}
+
+#header-nav li a:hover {
+    text-decoration: underline;
+}
+
+.left-link {
+    float: left;
+}
+
+.right-link {
+    float: right;
+}
+
+/** Logo and search area **/
 
 #search-buttons {
     text-align: center;
@@ -19,6 +60,10 @@
     height: 44px;
     margin: 0 auto;
     width: 482px;
+}
+
+#search-area {
+    margin-top: 89px;
 }
 
 #search-bar:hover {
