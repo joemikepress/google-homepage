@@ -17,6 +17,10 @@ a {
     text-decoration: none;
 }
 
+#header-nav {
+    position: relative;
+}
+
 ul {
     list-style: none;
     margin: 0;
@@ -63,7 +67,7 @@ ul {
 }
 
 #search-area {
-    margin-top: 89px;
+    padding-top: 89px;
 }
 
 #search-bar:hover {
@@ -90,4 +94,24 @@ button:hover {
     color: #222;
     border: 1px solid #c6c6c6;
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+/** Footer Navigation **/
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+#footer-nav ul {
+    background-color: rgb(242, 242, 242);
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+footer ul li {
+    display: inline;
 }
